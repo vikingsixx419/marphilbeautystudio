@@ -1,0 +1,23 @@
+{
+  "name": "marphil-beauty-studio",
+  "version": "1.0.0",
+  "description": "Sitio web para Marphil Beauty Studio, un salón de belleza en Uruguay",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "beauty",
+    "salon",
+    "hairdressing",
+    "nails",
+    "uruguay"
+  ],
+  "author": "Marphil Beauty Studio",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
