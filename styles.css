@@ -432,7 +432,7 @@ footer {
 .whatsapp-chat-button {
     width: 60px;
     height: 60px;
-    background-color: var(--soft-pink);
+    background-color: var(--accent-color); /* Cambiado a dorado intenso */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -532,7 +532,7 @@ footer {
 
 .whatsapp-chat-option {
     background-color: white;
-    border: none;
+    border: 1px solid var(--secondary-color); /* Borde dorado suave */
     padding: 10px 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -543,7 +543,8 @@ footer {
 }
 
 .whatsapp-chat-option:hover {
-    background-color: #f0f0f0;
+    background-color: var(--secondary-color); /* Fondo dorado suave al hover */
+    color: white; /* Texto blanco al hover */
 }
 
 .whatsapp-chat-footer {
@@ -555,7 +556,7 @@ footer {
 
 .whatsapp-chat-send {
     display: inline-block;
-    background-color: var(--soft-gold);
+    background-color: var(--secondary-color); /* Dorado suave */
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
@@ -570,7 +571,7 @@ footer {
 }
 
 .whatsapp-chat-send:hover {
-    background-color: var(--intense-gold);
+    background-color: var(--accent-color); /* Dorado intenso al hover */
 }
 
 /* Media Queries para Responsive */
