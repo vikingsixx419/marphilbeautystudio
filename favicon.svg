@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo circular -->
+  <circle cx="50" cy="50" r="45" fill="url(#goldGradient)" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Letra M estilizada -->
+  <text x="50" y="65" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#8B4513">M</text>
+  
+  <!-- Pequeños detalles decorativos -->
+  <circle cx="30" cy="25" r="3" fill="#8B4513" opacity="0.7"/>
+  <circle cx="70" cy="25" r="3" fill="#8B4513" opacity="0.7"/>
+  <circle cx="25" cy="75" r="2" fill="#8B4513" opacity="0.5"/>
+  <circle cx="75" cy="75" r="2" fill="#8B4513" opacity="0.5"/>
+</svg>
